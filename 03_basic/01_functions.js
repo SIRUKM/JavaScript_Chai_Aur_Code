@@ -27,4 +27,32 @@ function loginUserMessage(username){
     return `${username} jsut logged in`
 }
 
-console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("hitesh"))
+
+// function calculateCartPrice(num1){
+//     return num1
+// }
+
+// console.log(calculateCartPrice(2)); // multiple parameters nahi dee sakte
+
+
+function calculateCartPrice(...num1){// unlimited values pass kar sakte
+    return num1
+}
+    
+// console.log(calculateCartPrice(2,3,4,1));
+
+
+const user = {
+    username : "hitses",
+    price : 999
+}
+
+function handleObject(anyobject){
+    console.log(`usernaem is ${anyobject.username} and price is ${anyobject.price}`)
+}
+
+handleObject(user);
+
+
+//same tarike se arrays v pass kar sakte hai
