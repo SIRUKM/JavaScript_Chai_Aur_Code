@@ -26,5 +26,3 @@ const gameName = new String('hiteshhc')
 // console.log(newStringOne.trimEnd())
 
 
-
-const url = ""
